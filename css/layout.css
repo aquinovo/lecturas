@@ -1,0 +1,483 @@
+*{   
+   margin: 0; 
+   padding: 0;
+}
+body {
+   font: 13px Helvetica;
+   background: #EEEEEE;
+ }
+
+ 
+/* -------------------- LOGIN ----------------------*/
+ #content_login{
+	margin:  0px auto 0;
+	min-width: 400px;
+	padding: 4px;
+	position: relative;
+	width: 352px;
+	
+}
+
+.usuario-login,.password-login{
+	 width: 259px;
+	 display: block;
+	 margin: 0 auto;
+	 height:35px;
+	 padding-right:36px;
+	 
+	
+ }
+ #usuario{
+	width:220px;
+	height:24px;
+	display:block;
+	float:left;
+	color:black;
+	border:1px solid #b5b4b4;
+	
+ }
+ #password {
+	width:220px;
+	height:24px;
+	display:block;
+	float:left;
+	color:black;
+	border:1px solid #b5b4b4;
+ }
+ #usuario:hover, #password:hover{
+	border: 1px solid #410401;
+}
+#usuario:focus, #password:focus{
+border-bottom: 3px solid #410401;
+color:#292929;
+}
+ #input-button{
+	background: #410401;
+	border: none;
+	color: #fff;
+	height: 40px;
+	margin: 5px auto;
+	width: 222px;
+	display:block;
+}
+ #logo-user{
+	 background-image: url("../img/usr.png");
+	 height: 24px;
+	 width: 24px;
+	 display: inline-block;
+	 margin-right:13px;
+	 float:left;
+	 
+	
+}
+ #logo-password{
+	 background-image: url("../img/password.png");
+	 height: 24px;
+	 width: 24px;
+	 display: inline-block;
+	 float:left;
+	 margin-right:13px;
+	 
+ }
+
+ 
+
+/* -------------------- CABECERA ----------------------*/
+
+#menucontainer{
+	display:block;
+	position:absolute;
+	
+	right:32px;
+	
+}
+#cabecera{
+	background-color: #410401;
+	display:block;
+	width:100%;
+	height:64px;
+	
+}
+#logo-prolect{
+	float: left;
+	position: relative;
+	left: 32px;
+	top:5px;
+	width:50px;
+	height: 50px;
+}
+
+
+
+/* -------------------- CONTENT ----------------------*/
+
+
+.titulo{
+	position: relative;
+	
+	display:block;
+	min-width: 1000px;
+	height: 34px;
+	padding: 15px 0;
+	margin: 0 auto;
+	/* border-bottom: 1px solid #B4B4B4; */
+}
+#icono-usuario{
+	float:left;
+	margin: 5px 10px 0 40px;
+	padding
+}
+#nombre-usuario{
+	float:left;
+}
+#nombre-usuario p2{
+	float:left;
+	margin: 10px 10px 0;	
+}
+#titulo{
+	margin: 0 auto;
+	text-align:center; 
+	width:100%;
+	font: 27px Helvetica;
+    color:#7f7f7f;
+	position:absolute;
+	/* margin: 100px auto 0; */
+	
+}
+#titulo.p{
+	text-align:right;
+}
+#linea-hrztl{
+	display:block;
+	position:relative;
+		
+}
+
+.page-wrap {
+  min-height: 100%;
+  /* equal to footer height */
+  margin-bottom: -40px; 
+}
+.page-wrap:after {
+  content: "";
+  display: block;
+}
+
+.contenido{
+	/* position:relative;
+	top: 64px;
+	min-height: 600px;
+	min-width:1280px;
+	margin: 0 auto; */
+	/* equal to footer height */
+	
+	clear:both;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+	min-width: 948px;
+	
+
+	padding: 0 32px 60px;
+	overflow-y:auto;
+	
+}
+
+html,body{
+height:100%
+}
+
+form{
+	position:relative;
+	display: block;
+	clear:both;
+	
+}
+
+
+/*---------FOOTER--------------*/
+
+
+footer, .contenido:after {
+	
+	/* display:block;
+	clear:both;
+	position:fixed 	
+	bottom:0;
+	margin: 0 auto;
+	min-width: 1280x;
+	height: 40px;
+	background: #B4B4B4; */
+	height:40px;
+	
+
+}
+footer{
+	background: #b4b4b4;
+}
+
+
+.doscolumnas-izq {
+display:block;
+float: left;
+width: 50%;
+
+
+
+}
+.doscolumnas-der {
+display:block;
+float: left;
+width: 50%;
+
+}
+
+.alineacion-izq{
+	float:right;
+	display:block;
+	padding-right:40px;
+	padding-top:20px;
+	width:50%;
+}
+
+.alineacion-der{
+	float:left;
+	display:block;
+	padding-left:40px;
+	padding-top:20px;
+	width:50%;
+}
+.unacolumna{
+	margin:0 auto;
+	display:block;
+	width:75%;
+	text-align:center;
+	padding-top:20px;
+}
+.unacolumna{
+	margin:0 auto;
+	display:block;
+	width:80%;
+	text-align:center;
+	padding-top:20px;
+}
+.unacolumna-inicio{
+	margin:0 auto;
+	display:block;
+	width:80%;
+	text-align:center;
+	padding-top:20px;
+}
+.doscolumnas-der {
+display:block;
+float: left;
+width: 50%;
+
+}
+.evaluacion-datos{
+	
+	display:block;
+	padding-right:20px;
+	padding-top:20px;
+}
+
+.evaluacion-calificar{
+	
+	display:block;
+	padding-left:20px;
+	padding-top:20px;
+}
+#calificar-izq{
+	float:left;
+	display:block;
+	
+
+	
+	width:40%;
+}
+#calificar-der{
+	float:right;
+	display:block;
+	
+	
+	width:40%	
+}
+#datos-izq{
+	float:left;
+	display:block;
+	
+
+	
+	width:40%;
+}
+#datos-der{
+	float:right;
+	display:block;
+	
+	
+	width:40%	
+}
+
+#atras-adelante{
+	float:right;
+	display:block;
+	
+	position:relative;
+	
+}
+#button-atras{
+	float:left;
+	display:block;
+	position:relative;
+	margin-top:0;
+}
+#button-adelante{
+	float:left;
+	display:block;
+	position:relative;
+}
+/* #button-calificar-evaluacion{
+	float:right;
+	display:block;
+	position:relative;
+	margin-top:0;
+} */
+
+#button-salir-evaluacion
+{
+	float:right;
+	display:block;
+	position:relative;
+	margin-top:0;
+}
+/* #calificar-salir{
+	display:block;
+	clear:both;
+	height:94px;
+	
+} */
+#caracteres{
+	display:block;
+	width:400px;
+}
+#evaluacion-evaluacion{
+	display:block;
+	float:left;
+}
+#calificar-izq{
+	float:left;
+	display:block;
+	
+
+	
+	width:40%;
+}
+#calificar-der{
+	float:right;
+	display:block;
+	
+	
+	width:40%	
+}
+#label-comentarios{
+	display:block;
+	float:left;
+	width:100%;
+}
+.redactar-der{
+	display:block;
+	float:right;
+}
+#caracteres-escritos{
+width:50px;	
+}
+.redactar-area{
+	width:100%;
+	display:block;
+	margin:0 auto;
+	height:200px;
+}
+#redactar-botones{
+	display:block;
+	margin: 0 auto;
+	clear:both;
+	
+	width:334px;
+	
+}
+#cabecera-login{
+	background-color: #410401;
+	display:block;
+	width:100%;
+	height:64px;
+	
+}
+#logo_login{
+	background: url("../img/logo.png") no-repeat top center;
+	margin: 0px auto 0;
+	width: 164px;
+	height: 164px;
+	display:block;
+	margin-top:20px;
+	
+}
+#logo_utm{
+	background: url("../img/logo-utm-small.png") no-repeat top center;
+	margin: 0px auto 0px;
+	width: 54px;
+	height: 54px;
+	display:block;
+	float:left;
+	margin-left:40px;
+	margin-top:5px;
+	
+}
+#titulo-index{
+	margin: 0 auto;
+	text-align:center; 
+	width:100%;
+	font: 27px Helvetica;
+    color:#fff;
+	position:absolute;
+	margin-top:15px;
+	/* margin: 100px auto 0; */
+	
+}
+#version-index{
+	margin-right:40px;
+	text-align:right; 
+	width:100px;
+	font: 12px Helvetica;
+    color:#fff;
+	
+	margin-top:20px;
+	display:block;
+	float:right;
+	/* margin: 100px auto 0; */
+	
+}
+
+#redactar-guardar {
+display:block;
+
+float:left;	
+}
+#redactar-enviar{
+display:block;
+
+float:right;	
+}
+#redactar-actualizar{
+    display:block;
+    float:right;	
+}
+.table-inicio-izq{
+	display:block;
+	float:left;
+	width:30%;
+}
+.table-inicio-der{
+	display:block;
+	float:right;
+	width:30%;
+}

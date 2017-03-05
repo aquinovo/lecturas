@@ -1,0 +1,230 @@
+/*dibujar línea horizontal*/
+hr {
+    margin: 0 auto;
+    border:0; 
+    border-bottom: 1px solid #B4B4B4;
+    width:93%;
+	display:block;
+}
+p {
+    
+    
+}
+p2 {
+   
+    font: 13px Helvetica;
+    color:#410401
+}
+p3 {
+    font: 13px Helvetica;
+    color:#410401;
+}
+
+div3 img {
+    position: relative;
+    width: 30%;
+}
+  #biblioteca-line div{
+	
+	  
+	width:100%;
+	padding:15px;
+	height:20px;
+	background:#000;
+	
+	
+
+}
+  #biblioteca-line{
+	
+	  
+	width:100%;
+	padding:15px;
+	height:20px;
+	background:#000;
+	
+	
+
+}
+/*TABLAS*/
+
+
+div.table{
+    
+    
+	border-collapse:collapse;	
+     background-color:#fff;
+   /*  width: 400px; */
+}
+div.table2{
+    /* display: table; */
+    background-color:#fff;
+    width: 100%;
+	border-collapse:collapse;
+	 border: 1px solid #292929;
+	
+}
+div.fila{
+    display: table-row;
+      
+    height: 20px;
+    
+}
+div.columna{
+    display: table-cell;
+   
+    /* width: 400px; */
+    border-top-style: none;
+    border-right-style: none;
+   
+    border-left-style: none;
+}
+div.columna1{
+    display: table-cell;
+    
+    /* width: 50px; */
+    border-top-style: none;
+    border-right-style: none;
+   
+    border-left-style: none;
+}
+div.cabecera{
+    display: table-row;
+   color:white;	
+    background-color:#292929;
+    height: 20px;
+    
+}
+div.cabecera2{
+    display: table-row;
+   
+   
+    height: 100%;
+}
+div.cabecera2{
+    display: table-cell;
+  
+  
+    /* width: 400px; */
+}
+div.cabecera3{
+    display: table-cell;
+   
+   
+   /*  width: 50px; */
+}
+div.cabeceraP{
+    display: table-row;
+    
+    
+    width: 100%;
+}
+div.carrera{
+    display: table-cell;
+    
+    
+    width: 100px;
+}
+a.simple {text-decoration: none;color: black;}
+a.simple:hover { color: darkred}
+/* table td{
+	border:1px solid red;
+} */
+
+/*FORMULARIO*/
+
+#alta input[type=text] 
+{
+	color:black;
+	width: 300px;
+	margin-top:5px;
+	height:28px;
+	border:1px solid #b5b4b4;
+}
+
+#alta textarea{
+	width:300px;
+	
+}
+#alta input[type=text]:hover, #alta textarea:hover{
+	border: 1px solid #9c5811;
+}
+#alta input[type=text]:focus, #alta textarea:focus{
+border-bottom: 3px solid #9c5811;
+color:#292929;
+}
+#alta input[type=submit] {
+	width:130px;
+	height:40px;
+	/* display:block;
+	position:relative;
+	float:left; */
+
+}
+ input[type=file]{
+	width:300px;
+	height:40px;
+	
+}
+
+.botones{
+	width:300px;
+}
+#cancelar{
+	float:left;
+	display:block;
+}
+#guardar{
+	float: right;
+	display:block;
+}
+#imagen{
+	float:left;
+	display:block;
+}
+
+#baja input[type=text] 
+{
+	color:black;
+	width: 300px;
+	margin-top:5px;
+	height:28px;
+	border:1px solid #b5b4b4;
+}
+#baja input[type=text]:hover {
+	border: 1px solid #9c5811;
+}
+#baja input[type=text]:focus {
+color:#292929;
+border-bottom: 3px solid #9c5811;
+}
+#buscar{
+	float:right;
+	display:block;
+}
+#baja input[type=submit] {
+	width:130px;
+	height:40px;
+	margin-top:10px;
+	/* display:block;
+	position:relative;
+	float:left; */
+
+}
+.button input[type=submit]{
+	width:130px;
+	height:40px;
+	margin-top:10px;
+}
+input[type=submit].guardar {
+	width:130px;
+	height:40px;
+	display:block;
+	margin:20px auto 0;
+}
+
+ input[type=submit].buscar{
+	width:130px;
+	height:40px;
+	margin-top:10px;
+}
